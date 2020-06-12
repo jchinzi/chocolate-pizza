@@ -12,7 +12,9 @@
 header {
   overflow: hidden;
 }
-
+main {
+  overflow: hidden;
+}
 #firstLogo {
   float: left;
   margin: 60px 0 0 60px;
@@ -79,11 +81,29 @@ header {
 #leftList {
   position: absolute;
   top: 50px;
-  left: 260px;
+  left: 300px;
 }
 
 #rightList {
   position: absolute;
   top: 50px;
-  right: 300px;
+  right: 350px;
+}
+
+#vanessa {
+  float: left;
+}
+
+button {
+  float:right;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+#bio {
+  float: left;
+  overflow: hidden;
+}
+#copyright {
+  text-align: center;
 }
