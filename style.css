@@ -3,6 +3,12 @@
   border: solid black 1px;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header {
   overflow: hidden;
 }
@@ -48,4 +54,36 @@ header {
 
 #print > p {
   float: right;
+}
+
+#titleBlock {
+  overflow: hidden;
+}
+
+#chocoPizza {
+  height: 600px;
+  margin-left: 60px;
+  margin-right: 15px;
+}
+
+#instructions {
+  margin-right: 15px;
+  margin-left: 60px;
+}
+
+#ingredients {
+  position: relative;
+  text-align: center;
+}
+
+#leftList {
+  position: absolute;
+  top: 50px;
+  left: 260px;
+}
+
+#rightList {
+  position: absolute;
+  top: 50px;
+  right: 300px;
 }
