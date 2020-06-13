@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  border: solid black 1px;
 }
 
 .center {
@@ -12,25 +11,36 @@
 header {
   overflow: hidden;
 }
-
+main {
+  overflow: hidden;
+}
 #firstLogo {
   float: left;
-  margin: 60px 0 0 60px;
+  margin: 60px 10px 0 60px;
 }
 
-#blogTitle{
+#delicious {
+  font-size: 25px;
+}
+
+#bestfood {
+  font-size: 10px;
+}
+
+#blogTitle {
   float: left;
   margin-top: 60px;
+  
 }
 
 #socialMediaIcons {
   float: right;
-  margin-top: 60px;
+  margin-top: 70px;
 }
 
 #shareIcons {
   float: right;
-  margin-top: 60px;
+  margin-top: 70px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -39,6 +49,13 @@ header {
   float: left;
   margin-left: 60px;
   margin-top: 60px;
+  font-size: 30px;
+}
+#postate {
+  float: left;
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 15px;
 }
 
 #print {
@@ -46,6 +63,8 @@ header {
   margin-right: 15px;
   margin-top: 60px;
 }
+
+#
 
 #print > img {
   float: left;
@@ -62,11 +81,13 @@ header {
 
 #chocoPizza {
   height: 600px;
-  margin-left: 60px;
-  margin-right: 15px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #instructions {
+  font-family: 'Times New Roman';
   margin-right: 15px;
   margin-left: 60px;
 }
@@ -76,14 +97,39 @@ header {
   text-align: center;
 }
 
+#ingredients li{
+  text-align: left;
+  list-style-type: none;
+  font-family: 'Patrick Hand';
+  font-size: 23px;
+}
+
 #leftList {
   position: absolute;
-  top: 50px;
-  left: 260px;
+  top: 21px;
+  left: 300px;
 }
 
 #rightList {
   position: absolute;
-  top: 50px;
-  right: 300px;
+  top: 21px;
+  right: 350px;
+}
+
+#vanessa {
+  float: left;
+}
+
+button {
+  float:right;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+
+#bio {
+  float: left;
+  overflow: hidden;
+}
+#copyright {
+  text-align: center;
 }
